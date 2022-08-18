@@ -13,7 +13,7 @@ public class NotaAluno6Test {
     assertEquals(Float.MIN_VALUE, nota.getMenorNota(), 0.001);
   }
 
-  @Test(expected = RuntimeException.class)
+  @Test
   public void processarSemNotas() {
     NotaAluno6 nota = new NotaAluno6();
     nota.processarNotas();
