@@ -26,7 +26,7 @@ public class NotaAluno6 {
 
   public void processarNotas() throws RuntimeException {
     if (this.listaNota.size() == 0) {
-      throw new RuntimeException();
+      // throw new RuntimeException();
     }
     this.maiorNota = Float.MIN_VALUE;
     this.menorNota = Float.MAX_VALUE;
